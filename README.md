@@ -34,7 +34,6 @@ crypto-arbitrage-bot/
 │ ├── logger_mid.py # Logs mid-price spreads to CSV
 │ ├── logger_tradable.py # Logs tradable spreads to CSV
 
-
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository:**
