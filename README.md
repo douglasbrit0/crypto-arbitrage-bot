@@ -18,22 +18,6 @@ A real-time cryptocurrency arbitrage bot written in Python that monitors bid/ask
 - `asyncio`, `csv`, `pandas`, `numpy`
 - `python-dotenv` for credential management
 
-## 📁 Project Structure
-
-crypto-arbitrage-bot/
-│
-├── main.py # Entry point (fetches single snapshot from both exchanges)
-├── requirements.txt # Python dependencies
-├── spreads.csv # Mid-price spreads (output)
-├── spreads_tradable.csv # Tradable spreads (output)
-│
-├── market_data/
-│ ├── clients.py # CCXT exchange clients setup (Binance + Kraken)
-│ ├── credentials.py # Loads API credentials from .env
-│ ├── detector.py # Functions to calculate tradable spreads
-│ ├── logger_mid.py # Logs mid-price spreads to CSV
-│ ├── logger_tradable.py # Logs tradable spreads to CSV
-
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository:**
